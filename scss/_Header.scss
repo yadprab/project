@@ -1,0 +1,40 @@
+header {
+    padding: 3em 1em;
+    background-image: url("../images/bgggg.svg");
+    background-repeat: no-repeat no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    margin-bottom: 3em;
+}
+
+.hero--text {
+
+    h1 {
+        max-width: 261px;
+    }
+
+    p {
+        max-width: 278px;
+    }
+
+    a {
+        @include medium-button;
+        font-family: var(--font);
+        min-width: 160px;
+        text-align: center;
+        background-color: var(--base);
+        border-radius: 50px;
+        text-transform: capitalize;
+        color: var(--black);
+        margin-top: 1.5em;
+
+
+        &:hover{
+            background-color: var(--hover);
+        }
+
+    }
+}

@@ -1,0 +1,20 @@
+footer {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.socialLinks{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1em;
+    margin-top: 1.5em;
+
+    a{
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
